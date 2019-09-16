@@ -1,0 +1,35 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" 
+  interval="{{interval}}" 
+  duration="{{duration}}"
+  indicator-color="#008000"
+  indicator-active-color="#0000Ff"
+  >
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image bindtap='img' data-img="{{item}}" src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='text'>新品推荐</view>
+
+<view class='box'>
+  <view class='shop' wx:for="{{list}}">
+    <image src="{{item.img}}" class='img'></image>
+    <view class='text1'><view class='text2'>{{item.red}}</view></view>
+    <view class='bbb'>
+      <view class='title'>{{item.name}}</view>
+      <view class='descs'>{{item.descs}}</view>
+      <view class='price'>
+      <view class='new-price'>￥{{item.new_price}}起</view>
+      <view class='old-price'>￥{{item.old_price}}</view>
+      </view>
+      <view class='mai'>立即购买</view>
+    </view>
+  </view>
+
+
+ 
+
+</view>

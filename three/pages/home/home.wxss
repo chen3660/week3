@@ -1,0 +1,122 @@
+.slide-image{
+  width: 100%;
+}
+
+.text{
+  font-weight: bold;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  margin-left: 50rpx;
+}
+
+.box{
+  width: 100%;
+  height: 400rpx;
+  background: #EBEBEB;
+}
+.shop{
+  width: 30%;
+  height: 380rpx;
+  
+  margin-left: 18rpx;
+  margin-top: 10rpx;
+  float: left;
+}
+
+.img{
+  width: 90%;
+  height: 200rpx;
+  margin-right: 13rpx;
+  float: right;
+}
+
+.text1{
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+  border-radius: 50%;
+  margin-top: -100rpx;
+  float: left;
+  margin-left: 127rpx;
+}
+
+.text2{
+  width: 90rpx;
+  height: 60rpx;
+  color: white;
+  margin-top: 20rpx;
+  font-size: 10px;
+  margin-left: 10rpx;
+}
+
+.title{
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  height: 45rpx;
+ 
+  float: left;
+  font-weight: bold;
+  margin-top: 5rpx;
+  line-height: 45rpx;
+}
+
+.descs{
+  width: 100%;
+  height: 35rpx;
+ 
+  float: left;
+  font-size: 9px;
+  text-align: center;
+  line-height: 35rpx;
+}
+
+.price{
+  width: 100%;
+  height: 45rpx;
+  float: left;
+  
+ 
+}
+
+.new-price{
+  float: left;
+  width: 50%;
+  height: 45rpx;
+  
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  line-height: 45rpx;
+  text-align: center;
+}
+
+.old-price{
+  color:#808080;
+  font-size: 11px;
+  float: left;
+  width: 50%;
+  height: 45rpx;
+  
+  text-decoration: line-through;
+  line-height: 45rpx;
+  text-align: center;
+}
+
+.mai{
+  width: 70%;
+  height: 50rpx;
+  background: red;
+  float: left;
+  margin-left: 35rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 10%;
+}
+
+.bbb{
+  background: white;
+  height: 180rpx;
+  width: 100%;
+  margin-top: 200rpx;
+}

@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "全栈考试第三周",
+    "navigationBarTextStyle":"white"
+  }
+}
